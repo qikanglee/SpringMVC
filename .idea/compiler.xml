@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springmvc-07-interceptor" />
+        <module name="springmvc-06-ajax" />
+        <module name="springmvc-01-servlet" />
+        <module name="springmvc-05-json" />
+        <module name="springmvc-02-hellomvc" />
+        <module name="springmvc-03-annotation" />
+        <module name="springmvc-04-controller" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="interceptor" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="interceptor" options="" />
+      <module name="springmvc-01-servlet" options="" />
+      <module name="springmvc-02-hellomvc" options="" />
+      <module name="springmvc-03-annotation" options="" />
+      <module name="springmvc-04-controller" options="" />
+      <module name="springmvc-05-json" options="" />
+      <module name="springmvc-06-ajax" options="" />
+      <module name="springmvc-07-interceptor" options="" />
+    </option>
+  </component>
+</project>
